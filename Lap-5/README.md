@@ -1,0 +1,3 @@
+# Lap-05
+Gom Artifacts
+Để push code lên GitHub và cập nhật README, trước tiên mỗi thành viên cần clone repository về máy và làm việc trên một nhánh riêng để tránh xung đột. Sau khi hoàn tất chỉnh sửa hoặc thêm mới tính năng, tiến hành lưu thay đổi bằng cách add file, commit với một thông điệp ngắn gọn, rồi push code lên nhánh tương ứng trên GitHub. Sau khi push thành công, tạo Pull Request để nhóm có thể xem xét và merge vào nhánh chính. Khi cần cập nhật README, thành viên mở file README.md, bổ sung mô tả dự án, công nghệ sử dụng, hướng dẫn chạy hoặc danh sách thành viên nhóm, sau đó commit và push tương tự như với code. Cuối cùng, tạo Pull Request để hợp nhất nội dung README đã chỉnh sửa vào repository chính.

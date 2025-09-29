@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Login Form</title>
+</head>
+<body>
+  <h2>Login Form</h2>
+
+  <form onsubmit="return checkLogin()">
+    <label>Username:</label><br>
+    <input type="text" id="username"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" id="password"><br><br>
+
+    <input type="checkbox" id="remember"> Remember me <br><br>
+
+    <button type="submit">Login</button>
+    <button type="reset">Cancel</button>
+  </form>
+
+  <script>
+    function checkLogin() {
+      var user = document.getElementById("username").value;
+      var pass = document.getElementById("password").value;
+
+      if (user === "" || pass === "") {
+        alert("Vui lòng nhập đầy đủ Username và Password!");
+        return false; // không gửi form
+      }
+
+      if (pass.length < 6) {
+        alert("Password phải có ít nhất 6 ký tự!");
+        return false;
+      }
+
+      alert("Đăng nhập thành công!");
+      return true; // cho phép gửi form
+    }
+  </script>
+</body>
+</html>
